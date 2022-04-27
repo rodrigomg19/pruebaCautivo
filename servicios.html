@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/hover.css" media="all">
+  <link rel="shortcut icon" href="ic/Logo Cautivo.png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <title>Granallado Cautivo</title>
+</head>
+
+<body id="body">
+  <!--Barra superior-->
+
+  <div class="loader"></div>
+
+  <header id="header" class="header">
+    <div class="elementos">
+      <div class="menu-icon">
+        <img id="btn_open" src="ic/menu.png" alt="">
+      </div>
+      <a class="menu-logo" href="index.html"><img class="fadeInRight" src="ic/Logo Cautivo.png" alt="" width="160"
+          height="110"></a>
+
+      <nav>
+        <ul class="menu" data-animation="center">
+          <li><a class="hvr-float fadeInRight" href="index.html">Inicio</a></li>
+          <li><a class="hvr-float fadeInRight" href="empresa.html">Nosotros</a></li>
+          <li><a class="hvr-float fadeInRight" href="servicios.html">Servicios</a></li>
+          <li><a class="hvr-float fadeInRight" href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ---------- Menu Responsivo ---------- -->
+
+  <div class="menu__side" id="menu_side">
+    <div class="name__page">
+      <a href="index.html"><img class="fadeInRight" src="ic/Logo Cautivo.png" alt="" width="160"
+          height="110"></a>
+      <div class="close-icon">
+        <img id="btn_close" src="ic/clear.png" alt="">
+      </div>
+    </div>
+    <div class="options__menu">
+
+      <a href="index.html">
+        <div class="option" >
+          <img src="ic/inicio.png" alt="">
+          <h4>Inicio</h4>
+        </div>
+      </a>
+
+      <a href="empresa.html">
+        <div class="option">
+          <img src="ic/nosotros.png" alt="">
+          <h4>Nosotros</h4>
+        </div>
+      </a>
+
+      <a href="servicios.html">
+        <div class="option selected">
+          <img src="ic/servicio.png" alt="">
+          <h4>Servicios</h4>
+        </div>
+      </a>
+
+      <a href="contacto.html">
+        <div class="option">
+          <img src="ic/contacto.png" alt="">
+          <h4>Contacto</h4>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+  <!-- ---------- Menu Responsivo ---------- -->
+
+
+  <section class="zona1">
+    <div id="carouselExampleCaptions" class=" ">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/imgs/car_servicio.png" class="portada d-block w-100" alt="...">
+          <div class="fadeInUp carousel-caption d-none d-md-block">
+            <h5>Nuestros servicios</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="paginas">
+      <a href="">Inicio</a>
+      <span>/</span>
+      <a href="">Servicios</a>
+    </div>
+    <hr>
+  </section>
+  <!--Texto-->
+
+  <div id="elemento1" class="escondido izquierda servicios container">
+    <div class="title-logo">
+      <img src="ic/historia.png" alt="">
+      <h3 class="titulo">Nuestros <span>Servicios</span></h1>>
+    </div>
+  </div>
+
+  <div class="cards-servicios">
+    <div class="title-cards escondido arriba" id="elemento2">
+      <h2 class="texto-normal">Servicios que Ofrecemos</h2>
+    </div>
+    <div class="container-card">
+      <div id="elemento3" class="card escondido abajo">
+        <figure>
+          <img
+            src="imgs/granallado blanco.jpg">
+        </figure>
+        <div class="contenido-card">
+          <h3>Granallado Blanco</h3>
+          <p class="texto-normal">Superficie de acero con la capa de
+            laminación intacta en toda la superficie y
+            prácticamente sin corrosión. </p>
+            <a class="btn-animation rounded text-center " href="/contacto.html">
+              <span>Saber más</span>
+              <div class="wave"></div>
+            </a>
+        </div>
+      </div>
+      <div id="elemento4" class="card escondido abajo">
+        <figure>
+          <img src="imgs/granallado comercial.jpg">
+        </figure>
+        <div class="contenido-card">
+          <h3>Granallado Comercial</h3>
+          <p class="texto-normal">Superficie de acero con principio de
+            corrosión y en la cual la capa de laminación
+            comienza a despegarse.</p>
+            <a class="btn-animation rounded text-center " href="/contacto.html">
+              <span>Saber más</span>
+              <div class="wave"></div>
+            </a>
+        </div>
+      </div>
+      <div id="elemento5" class="card escondido abajo">
+        <figure>
+          <img
+            src="imgs/cnc.png">
+        </figure>
+        <div class="contenido-card">
+          <h3>Corte Plasma CNC</h3>
+          <p class="texto-normal">Contamos con maquinas para el Servicio de Corte por Plasma CNC con sistemas de control numérico por
+            computadora</p>
+            <a class="btn-animation rounded text-center " href="/contacto.html">
+              <span>Saber más</span>
+              <div class="wave"></div>
+            </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Fin   Tarjetas-->
+
+
+  <!--Footer-->
+
+  <section>
+    <div class="cont-contactos pt-5">
+
+      <!--Contactos-->
+      <div class="container contactos">
+        <div class="row text-center text-light d-flex justify-content-center mx-5">
+
+          <!--Telefonos-->
+          <div id="elemento6" class="escondido izquierda tarj1 colum col-md-4 py-5 px-0 d-flex" style="background-color:#1e1e1e;">
+            <div class="py-4 w-100">
+              <div class="d-flex justify-content-center mb-2">
+                <span><img src="ic/telefono_degradado.png" width="55px" alt=""></span>
+              </div>
+              <div class="text ">
+                <span>054-344155 / 991502794</span>
+              </div>
+            </div>
+          </div>
+
+          <!--Correo-->
+          <div id="elemento7" class="escondido arriba tarj2 colum col-md-4 py-5 px-0 d-flex" style="background-color:#1c1c1c;">
+            <div class="py-4 w-100">
+              <div class="d-flex justify-content-center mb-2">
+                <span><img src="ic/email_degradado.png" width="55px" alt=""></span>
+              </div>
+              <div class="text">
+                <span>ventas@fajascautivo.com</span>
+              </div>
+            </div>
+          </div>
+
+          <!--Direccion-->
+          <div id="elemento8" class="escondido derecha tarj3 colum col-md-4 py-5 px-0 d-flex" style="background-color:#252525;">
+            <div class="py-4 w-100">
+              <div class="d-flex justify-content-center mb-2">
+                <span><img src="ic/ubicacion_degradado.png" width="55px" alt=""></span>
+              </div>
+              <div class="text ">
+                <span>Urb. Fatima A-20, Yanahuara, Arequipa, Perú</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Contactos-->
+
+
+
+      <!--Adicionales-->
+      <footer class="footer">
+        <div class="container cont-footer">
+          <div class="row row-footer">
+            <div id="elemento9" class="footer-col escondido abajo ">
+              <ul>
+                <li><a href="#"><span class="mx-auto"><img src="ic/Logo Cautivo.png" width="150px"
+                        alt="Logo Cautivo FM"></span></a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4 id="elemento10" class="escondido derecha">Empresa</h4>
+              <ul id="elemento11" class="escondido izquierda">
+                <li><a href="#">Nuestra Historia</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Contacto</a></li>
+              </ul>
+            </div>
+            <div class="footer-col ">
+              <h4 id="elemento12" class="escondido derecha">Horas de Trabajo</h4>
+              <ul id="elemento13" class="escondido izquierda">
+                <li><a href="#">Lunes - Viernes: 9 am - 5 pm</a></li>
+                <li><a href="#">Sabado - Domingo: Cerrado</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4 id="elemento14" class="escondido derecha">Síguenos</h4>
+              <div id="elemento15" class="escondido izquierda">
+                <a href="#" class="social-links"><img src="ic/facebook.png" alt=""></a>
+                <a href="#" class="social-links"><img src="ic/whatsapp.png" alt=""></a>
+                <a href="#" class="social-links"><img src="ic/gmail.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--Adicionales-->
+
+
+
+      <div id="elemento16" class="escondido arriba copy">
+        <p>©2022 Cautivo FM. Todos los derechos reservados.</p>
+      </div>
+
+    </div>
+
+    <div class="container yellow-target">
+      <div class="tarjeta-contacto">
+        <div class="textos">
+          <div id="elemento17" class="escondido izquierda titulo">¿Necesita ayuda?</div>
+          <div id="elemento18" class="escondido izquierda h5">Si necesita una cotizacion puede enviarnos un email, le responderemos a la brevedad.
+          </div>
+        </div>
+        <div id="elemento19" class="escondido derecha boton">
+          <div>
+            <a class="btn-animation rounded text-center" href="/contacto.html">
+              <span>Saber más</span>
+              <div class="wave"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Footer-->
+
+
+  <!--Scripts-->
+
+  <div class="btn-wsp" type="button">
+    <a target="blank"
+      href="https://api.whatsapp.com/send/?phone=%2B51983781494&text=%22Hola,%20quisiera%20obtener%20mas%20informacion%20sobre%20sus%20servicios%22"><img
+        src="ic/whatsapp.png" alt=""></a>
+  </div>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+  <script src="js/simplyCountdown.min.js"></script>
+  <script src="js/countdown.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/contador.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/navbar.js"></script>
+  <script src="js/loading.js"></script>
+
+</body>
+
+</html>

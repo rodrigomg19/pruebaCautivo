@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="ic/Logo Cautivo.png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <title>Granallado Cautivo</title>
+</head>
+
+<body id="body">
+  <!--Barra superior-->
+
+  <div class="loader"></div>
+
+  <header id="header" class="header">
+    <div class="elementos">
+      <div class="menu-icon">
+        <img id="btn_open" src="ic/menu.png" alt="">
+      </div>
+      <a class="menu-logo" href="index.html"><img class="fadeInRight" src="ic/Logo Cautivo.png" alt="" width="160"
+          height="110"></a>
+
+      <nav>
+        <ul class="menu" data-animation="center">
+          <li><a class="hvr-float fadeInRight" href="index.html">Inicio</a></li>
+          <li><a class="hvr-float fadeInRight" href="empresa.html">Nosotros</a></li>
+          <li><a class="hvr-float fadeInRight" href="servicios.html">Servicios</a></li>
+          <li><a class="hvr-float fadeInRight" href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ---------- Menu Responsivo ---------- -->
+
+  <div class="menu__side" id="menu_side">
+    <div class="name__page">
+      <a href="index.html"><img class="fadeInRight" src="ic/Logo Cautivo.png" alt="" width="160" height="110"></a>
+      <div class="close-icon">
+        <img id="btn_close" src="ic/clear.png" alt="">
+      </div>
+    </div>
+
+    <div class="options__menu">
+      <a href="index.html">
+        <div class="option selected">
+          <img src="ic/inicio.png" alt="">
+          <h4>Inicio</h4>
+        </div>
+      </a>
+
+      <a href="empresa.html">
+        <div class="option">
+          <img src="ic/nosotros.png" alt="">
+          <h4>Nosotros</h4>
+        </div>
+      </a>
+
+      <a href="servicios.html">
+        <div class="option">
+          <img src="ic/servicio.png" alt="">
+          <h4>Servicios</h4>
+        </div>
+      </a>
+
+      <a href="contacto.html">
+        <div class="option">
+          <img src="ic/contacto.png" alt="">
+          <h4>Contacto</h4>
+        </div>
+      </a>
+    </div>
+
+  </div>
+
+  <!-- ---------- Menu Responsivo ---------- -->
+
+
+  <section class="zona1">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <li type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="bg-light active"
+          aria-current="true"></li>
+        <li type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" class="bg-light"></li>
+        <li type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" class="bg-light"></li>
+      </div>
+      <div class="carousel-inner ">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img id="img-carousel" src="imgs/Engranajes.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block text-light text-carousel">
+            <h4 id="" class="fadeInUp">Empresa #1 en fabricación <br>
+              <h5 class="fadeInUp">de estructuras metalicas</h5>
+            </h4><br>
+            <p class="fadeInUp">8 Años al servicio de la Industria Peruana.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img id="img-carousel" src="imgs/Esmerilado 2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block text-light text-carousel">
+            <h4 id="hola2">Trabajo profesional<br>
+              <h5>y servicio de excelente calidad</h5>
+            </h4><br>
+            <p>Brindando a cada cliente la atención que se merece.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img id="img-carousel" src="imgs/Almacen.jpg" data-bs-interval="1000" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block text-light text-carousel">
+            <h4>Lorem ipsum dolor sit<br>
+              <h5>Lorem ipsum dolor sit</h5>
+            </h4><br>
+            <p>Quaerat omnis fugiat sapiente alias expedita molestias.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <div class="infbar">
+    <div class="infbar-content ">
+      <div class="inf fadeInLeft">
+        <img src="ic/creativo.png" alt="">
+        <h4 class="text-center">Creatividad</h4>
+        <p class="text-justify">Pensamiento e ideas innovadoras para soluciones ágiles.</p>
+      </div>
+      <div class="inf fadeInUp">
+        <img src="ic/pastilla.png" alt="">
+        <h4 class="text-center">Tecnologia</h4>
+        <p class="text-justify">Equipos y maquinas de ultima generación</p>
+      </div>
+      <div class="inf fadeInRight">
+        <img src="ic/equipo.png" alt="">
+        <h4 class="text-center">Equipo</h4>
+        <p class="text-justify">Contamos con el mejor equipo humano para brindar el mejor servicio.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class=" fondo-blanco ">
+    <!--Granallado-->
+    <div class="container flex-container">
+      <div>
+        <div id="elemento1" class="escondido izquierda">
+          <div class="title-logo">
+            <img src="ic/grupo.png" alt="">
+            <h1 class="titulo">Bienvenido a <span>Cautivo F.M.</span></h1>
+          </div>
+          <p class="text-justify texto-normal">Sr. CAUTIVO FM. E.I.R.L. marca la diferencia en un rubro altamente
+            exigente, gracias
+            a su calidad y
+            técnica, nuestra empresa lleva al servicio de la minería más de 8 años, brindando a este importante sector
+            productivo,
+            un soporte fundamental en el ámbito de los SISTEMAS DE TRANSPORTE DE MINERAL, mediante correas
+            transportadoras.</p>
+        </div>
+      </div>
+      <img id="elemento2" class="escondido derecha" src="/imgs/Cautivo1.png" alt="">
+    </div><br><br><br>
+
+    <div class="container flex-container">
+      <div>
+        <div>
+          <div id="elemento3" class="title-logo escondido izquierda">
+            <img src="ic/mision.png" alt="">
+            <h1 class="titulo">Nuetra <span>Mision</span></h1>
+          </div>
+          <p id="elemento4" class="text-justify escondido derecha texto-normal">Nuestra misión es desarrollar soluciones
+            metalmecánicas desarrolladas conforme a las
+            necesidades de nuestros clientes, a los cuales brindamos productos diseñados y fabricados por personal
+            altamente calificado que garantiza una excelente calidad.</p>
+          <ul class="lista">
+            <li>
+              <p id="elemento5" class="icon-list escondido izquierda"><span><img src="ic/comprobar.png"
+                    alt=""></span>Proporcionar servicios y productos de alta
+                calidad.</p>
+            </li>
+            <li>
+              <p id="elemento6" class="icon-list escondido izquierda"><span><img src="ic/comprobar.png"
+                    alt=""></span>Estilo de trabajo ágil y rápido</p>
+            </li>
+            <li>
+              <p id="elemento7" class="icon-list escondido izquierda"><span><img src="ic/comprobar.png"
+                    alt=""></span>8 años de experiencia en el rubro.</p>
+            </li>
+          </ul><br>
+        </div>
+        <a class="btn-animation rounded text-center" href="/contacto.html">
+          <span>Saber más</span>
+          <div class="wave"></div>
+        </a><br>
+      </div>
+      <div class="contador">
+        <div id="elemento8" class="escondido izquierda">
+          <h1>+<span id="cont1">0</span></h1>
+          <p>Clientes Satisfechos</p>
+        </div>
+        <div id="elemento9" class="escondido derecha">
+          <h1>+<span id="cont2">0</span></h1>
+          <p>Trabajos concluidos</p>
+        </div>
+        <div id="elemento10" class="escondido izquierda">
+          <h1><span id="cont3">0</span></h1>
+          <p>Equipo</p>
+        </div>
+        <div id="elemento11" class="escondido izquierda">
+          <h1><span id="cont4">0</span>%</h1>
+          <p>Satisfaccion</p>
+        </div>
+      </div>
+    </div><br><br><br>
+
+    <div class="timer">
+      <div id="elemento12" class="escondido arriba timer-text">
+        <h1>Tiempo <span>Trabajando</span></h1>
+        <p>Para la industria Peruana</p>
+      </div>
+      <div id="elemento13" class="escondido abajo">
+        <div id="cuenta"></div>
+      </div>
+    </div>
+
+    <div id="elemento14" class="escondido izquierda container title-logo">
+      <img src="ic/ofrecer.png" alt="Logo Ofrecer">
+      <h1 class="titulo">Trabajos Realizados</h1>
+    </div>
+    <div id="elemento15" class="escondido derecha container texto-normal">
+      <p>En la presente se muestra algunos proyectos en los cuales se participó como sub contratado por una empresa, y
+        tenemos el orgullo de decir meta cumplida.</p><br>
+    </div>
+
+
+    <div class="galeria container">
+      <div class="contenedor-imagenes">
+        <div id="elemento16" class="imagen escondido izquierda">
+          <img src="imgs/antapacay.png" alt="">
+          <div class="overlay">
+            <h2>PROYECTO ANTAPACCAY</h2>
+            <p>Tintaya - Cusco</p>
+          </div>
+        </div>
+        <div id="elemento17" class="imagen escondido arriba">
+          <img src="imgs/marcobre.png" alt="">
+          <div class="overlay">
+            <h2>PROYECTO MARCOBRE</h2>
+            <p>Arequipa-Ica</p>
+          </div>
+        </div>
+        <div id="elemento18" class="imagen escondido derecha">
+          <img src="imgs/hudbay.png" alt="">
+          <div class="overlay">
+            <h2>PROYECTO HUBDAY</h2>
+            <p>Cuzco - Chumbivilcas</p>
+          </div>
+        </div>
+        <div id="elemento19" class="imagen escondido izquierda">
+          <img src="imgs/bambas.png" alt="">
+          <div class="overlay">
+            <h2>PROYECTO MINERA BAMBAS</h2>
+            <p>Bambas</p>
+          </div>
+        </div>
+        <div id="elemento20" class="imagen escondido abajo">
+          <img src="imgs/marcobre.png" alt="">
+          <div class="overlay">
+            <h2>PROYECTO MINERA BAMBAS</h2>
+            <p>Bambas</p>
+          </div>
+        </div>
+        <div id="elemento21" class="imagen escondido derecha">
+          <img src="imgs/antapacay.png" alt="">
+          <div class="overlay">
+            <h2>MINERA BAMBAS</h2>
+            <p>Bambas</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="elemento22" class="slider escondido arriba">
+      <div class="slide-track">
+        <div class="slide">
+          <img src="marcas/antamina.png" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+          <img src="marcas/antapacay.png" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+          <img src="marcas/bambas.png" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+          <img src="marcas/cerro_verde.png" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+          <img src="marcas/hudbay.png" height="80" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="marcas/marcobre.png" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="marcas/antamina.png" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+          <img src="marcas/antapacay.png" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+          <img src="marcas/bambas.png" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+          <img src="marcas/cerro_verde.png" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+          <img src="marcas/hudbay.png" height="80" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="marcas/marcobre.png" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="marcas/antamina.png" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+          <img src="marcas/antapacay.png" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+          <img src="marcas/bambas.png" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+          <img src="marcas/cerro_verde.png" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+          <img src="marcas/hudbay.png" height="80" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="marcas/marcobre.png" height="100" width="250" alt="" />
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <!--Footer-->
+
+  <section>
+    <div class="cont-contactos pt-5">
+
+      <!--Contactos-->
+      <div class="container contactos">
+        <div class="row text-center text-light d-flex justify-content-center mx-5">
+
+          <!--Telefonos-->
+          <div id="elemento23" class="escondido izquierda tarj1 colum col-md-4 py-5 px-0 d-flex"
+            style="background-color:#1e1e1e;">
+            <div class="py-4 w-100">
+              <div class="d-flex justify-content-center mb-2">
+                <span><img src="ic/telefono_degradado.png" width="55px" alt=""></span>
+              </div>
+              <div class="text">
+                <span>054-344155 / 991502794</span>
+              </div>
+            </div>
+          </div>
+
+          <!--Correo-->
+          <div id="elemento24" class="escondido arriba tarj2 colum col-md-4 py-5 px-0 d-flex"
+            style="background-color:#1c1c1c;">
+            <div class="py-4 w-100">
+              <div class="d-flex justify-content-center mb-2">
+                <span><img src="ic/email_degradado.png" width="55px" alt=""></span>
+              </div>
+              <div class="text">
+                <span>ventas@fajascautivo.com</span>
+              </div>
+            </div>
+          </div>
+
+          <!--Direccion-->
+          <div id="elemento25" class="escondido derecha tarj3 colum col-md-4 py-5 px-0 d-flex"
+            style="background-color:#252525;">
+            <div class="py-4 w-100">
+              <div class="d-flex justify-content-center mb-2">
+                <span><img src="ic/ubicacion_degradado.png" width="55px" alt=""></span>
+              </div>
+              <div class="text ">
+                <span>Urb. Fatima A-20, Yanahuara, Arequipa, Perú</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Contactos-->
+
+
+
+      <!--Adicionales-->
+      <footer class="footer">
+        <div class="container cont-footer">
+          <div class="row row-footer">
+
+            <div class="footer-col">
+              <ul class="text-center">
+                <li id="elemento26" class="escondido izquierda"><a href="#"><span class="mx-auto"><img
+                        src="ic/Logo Cautivo.png" width="150px" alt="Logo Cautivo FM"></span></a></li>
+                <li id="elemento37" class="escondido izquierda mt-5">
+                  <p class=" texto-normal">Sr Cautivo FM E.I.R.L</p>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4 id="elemento27" class="escondido derecha">Empresa</h4>
+              <ul id="elemento28" class="escondido izquierda">
+                <li><a href="#">Nuestra Historia</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Contacto</a></li>
+              </ul>
+            </div>
+            <div class="footer-col ">
+              <h4 id="elemento29" class="escondido derecha">Horas de Trabajo</h4>
+              <ul id="elemento30" class="escondido izquierda">
+                <li>
+                  <p>Lunes - Viernes: 9 am - 5 pm</p>
+                </li>
+                <li>
+                  <p>Sabado - Domingo: Cerrado</p>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4 id="elemento31" class="escondido derecha">Síguenos</h4>
+              <div id="elemento32" class="escondido izquierda">
+                <a href="#" class="social-links"><img src="ic/facebook.png" alt=""></a>
+                <a href="#" class="social-links"><img src="ic/whatsapp.png" alt=""></a>
+                <a href="#" class="social-links"><img src="ic/gmail.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--Adicionales-->
+
+
+
+      <div id="elemento33" class="escondido arriba copy">
+        <p>©2022 Cautivo FM. Todos los derechos reservados.</p>
+      </div>
+
+    </div>
+
+    <div class="container yellow-target">
+      <div class="tarjeta-contacto">
+        <div class="textos">
+          <div id="elemento34" class="escondido izquierda titulo">¿Necesita ayuda?</div>
+          <div id="elemento35" class="escondido izquierda h5 ">Si necesita una cotizacion puede enviarnos un email, le
+            responderemos a la brevedad.</div>
+        </div>
+        <div id="elemento36" class="escondido derecha boton">
+          <div>
+            <a class="btn-animation rounded text-center" href="/contacto.html">
+              <span>Saber más</span>
+              <div class="wave"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Footer-->
+
+
+  <!--Scripts-->
+
+  <div class="btn-wsp" type="button">
+    <a target="blank"
+      href="https://api.whatsapp.com/send/?phone=%2B51983781494&text=%22Hola,%20quisiera%20obtener%20mas%20informacion%20sobre%20sus%20servicios%22"><img
+        src="ic/whatsapp.png" alt=""></a>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+  <script src="js/simplyCountdown.min.js"></script>
+  <script src="js/countdown.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/contador.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/navbar.js"></script>
+  <script src="js/loading.js"></script>
+
+</body>
+
+</html>
